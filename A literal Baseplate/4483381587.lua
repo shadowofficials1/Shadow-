@@ -6,7 +6,7 @@
     local DefaultVersion = "v1.0"
 
     -- **Persistent Version Storage**
-    local VersionFile = "Shadowbyte_Version.txt"
+    local VersionFile = "Shadow_Version.txt"
 
     local function LoadVersion()
         if isfile(VersionFile) then
@@ -38,7 +38,7 @@
         Callback = function()
             Rayfield:Notify({
                 Title = "📢 About Us",
-                Content = "Shadowbyte is designed for testing purposes.",
+                Content = "Shadow is designed for testing purposes.",
                 Duration = 5
             })
         end
@@ -53,7 +53,7 @@
     -- **Function to Check for Updates**
     local function CheckForUpdate()
         local success, response = pcall(function()
-            return game:HttpGet("https://raw.githubusercontent.com/glitchstikers/Testscript-/main/Version.lua")
+            return game:HttpGet("https://raw.githubusercontent.com/shadowofficials1/Shadow-/refs/heads/main/A%20literal%20Baseplate/Version.lua")
         end)
 
         if success and response then
