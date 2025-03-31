@@ -25,6 +25,8 @@
     -- **Create UI Window**
     local Window = Rayfield:CreateWindow({
         Name = string.format("%s | %s | %s", CurrentName, CurrentGame, CurrentVersion),
+        LoadingTitle = "easy to use",
+        LoadingSubtitle = "by Shadow",
         Icon = 0,
         Theme = "Dark"
     })
