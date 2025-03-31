@@ -1,3 +1,5 @@
-return {
-    [12345678] = "Script Raw"
+local Games = {
+  [2753915549] = "Game raw", 
 }
+
+return Games
