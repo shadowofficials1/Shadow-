@@ -63,7 +63,7 @@ local function handleKeyEntry(txt)
         task.delay(1, function()
             -- Load your main loader or script
             local success, result = pcall(function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/shadowofficials1/Shadow-/refs/heads/main/loader.lua"))()
             end)
 
             -- If loading fails, log the error
